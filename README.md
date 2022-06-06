@@ -1,9 +1,9 @@
-# Lesson Title
+# JSON
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Understand the JSON format
+- Work with the JSON format in Java
 
 ## Introduction
 
