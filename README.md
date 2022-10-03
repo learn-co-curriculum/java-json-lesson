@@ -3,7 +3,8 @@
 ## Learning Goals
 
 - Understand the JSON format.
-- Work with the JSON format in Java.
+- Add the Jackson library.
+- Use the Jackson library to read and write JSON files.
 
 ## Introduction
 
