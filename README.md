@@ -9,11 +9,11 @@
 ## Introduction
 
 CSV files are helpful, but they have one fundamental limitation, which is that
-each line in a CSV file represents a full object. This means that if an object
-has anything but primitive types, it will be difficult to represent in a CSV
-file.
+each line in a CSV file represents a full object. This means, if we have a class
+that contains a data structure, like a `List`, or another object, like a
+`Hospital` has a `Doctor`, then this will be difficult to represent in a CSV.
 
-Consider a `Student` class with an additional field for that student's classes:
+Consider a `Student` class with an additional field for the student's classes:
 
 ```java
 public class Student {
@@ -383,7 +383,7 @@ Once we have read in the `Student` objects, we'll print them out to the console.
 
 The following is the expected output of the code above:
 
-```plaintext
+```text
 Suzie Bingham has the letter grade A and is in the following classes: Computer Science 
 Dustin Henderson has the letter grade B and is in the following classes: Latin Physics Biology 
 ```
